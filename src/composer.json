@@ -1,0 +1,11 @@
+{
+  "name": "php-sandbox/myapp",
+  "description": "php-sandbox",
+  "type": "library",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "app"
+    }
+  }
+}

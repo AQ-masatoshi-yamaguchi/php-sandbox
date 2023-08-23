@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  php:
+    container_name: sandbox-app
+    build: docker/php
+    volumes:
+      - ./src/:/var/www/html/
+
