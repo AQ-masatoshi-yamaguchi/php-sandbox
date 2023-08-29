@@ -17,6 +17,7 @@ docker-compose run --rm php composer install
 ## PhpStormでテストカバレッジ実行
 ①[PHPStormからDockerのPHPコンテナでPHPUnitを実行する方法](https://qiita.com/minato-naka/items/e3eeab7c619aed25cd7b)を参考にphpstormの設定を行う<br>
 
+※以下の画面が[参考記事](https://qiita.com/minato-naka/items/e3eeab7c619aed25cd7b)と遷移方法が異なっているので注意<br>
 「Settings」->「PHP」->「CLI Intepreter」->「...」をクリック<br><br>
 <img width="485" alt="スクリーンショット 2023-08-28 161851" src="https://github.com/AQ-masatoshi-yamaguchi/php-sandbox/assets/69567949/a75bec6d-d5b4-477c-8860-eacbb1e544ab"><br>
 
